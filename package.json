@@ -1,0 +1,22 @@
+{
+  "name": "bupa-museum-3d",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Ultra-modern 3D Museum Experience with Azure Application Insights",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
+  },
+  "dependencies": {
+    "@microsoft/applicationinsights-web": "^3.0.5",
+    "three": "^0.160.0",
+    "gsap": "^3.12.5"
+  },
+  "devDependencies": {
+    "@types/three": "^0.160.0",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.11"
+  }
+}
